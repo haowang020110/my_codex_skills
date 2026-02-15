@@ -42,7 +42,7 @@ Edit code safely with per-file backups, inline change notes, and explicit user r
    - Ask for explicit approval.
 
 7. Handle approval outcome.
-   - If approved: delete the `_bak` backup file(s). Do not remove inline notes unless the user explicitly asks.
+   - If approved: delete the `_bak` backup file(s) and remove inline `NOTE(change)` comments from the modified file(s).
    - If not approved: ask whether to redo from scratch or make small fixes.
      - Redo: delete the modified file, restore from the `_bak` backup, then start over.
      - Small fixes: keep the backup and continue editing with new notes.
