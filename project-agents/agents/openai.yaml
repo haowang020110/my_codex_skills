@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project AGENTS"
+  short_description: "Analyze a codebase and update AGENTS.md"
+  default_prompt: "Use $project-agents to analyze this project and update AGENTS.md with APIs, core logic, and module interactions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Skills"
+  short_description: "Handle Git ignore, commit grouping, and remote sync tasks."
+  default_prompt: "Handle Git tasks: stop tracking files, plan grouped commits with messages for approval, and push or pull safely."
