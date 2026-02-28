@@ -1,4 +1,4 @@
 interface:
   display_name: "Edit Code"
-  short_description: "Edit code with backups, inline notes, approval"
-  default_prompt: "Use $edit-code to update a file with a backup, inline notes, and review."
+  short_description: "Edit Python code with backups, inline notes, approval"
+  default_prompt: "Use $edit-code to update a .py file with a backup, inline notes, and review."
